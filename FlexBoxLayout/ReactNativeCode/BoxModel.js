@@ -73,6 +73,7 @@ const BoxStyles = StyleSheet.create({
       backgroundColor : '#5ac5ac'
     },
     borderBox : {
+        /*当 flex 取值为一个非负数字，则该数字为 flex-grow 值，flex-shrink 取 1，flex-basis 取 0%  */
         flex : 1,
         justifyContent: 'space-between',
         flexDirection: 'row',
