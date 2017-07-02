@@ -5,15 +5,17 @@
 import React, { Component } from 'react';
 import {
     StyleSheet,
-    Text,
-    View
 } from 'react-native';
 
 import NavigationComponent from './NavigationComponent';
 
+import Tabs from './TabNavigator';
+
+
 export default class setup extends Component {
     render() {
-        return <NavigationComponent/>
+        /*return <NavigationComponent/> ;*/
+        return <Tabs/> ;
     }
 }
 
@@ -24,4 +26,3 @@ const styles = StyleSheet.create({
         margin: 10,
     },
 });
-

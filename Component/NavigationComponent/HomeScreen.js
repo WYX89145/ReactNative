@@ -15,6 +15,7 @@ import {
 import { StackNavigator } from 'react-navigation';
 
 export default class HomeScreen extends Component {
+
     static navigationOptions = {
         /*设置标题*/
         title: 'Welcome',
