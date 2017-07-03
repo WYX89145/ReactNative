@@ -10,4 +10,4 @@ import {
 } from 'react-native';
 
 import setup from './setup';
-AppRegistry.registerComponent('NavigationComponent', () => setup);
+AppRegistry.registerComponent('TouchableComponent', () => setup);

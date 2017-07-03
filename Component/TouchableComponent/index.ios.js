@@ -6,8 +6,9 @@
 
 import React from 'react';
 import {
-  AppRegistry,
+    AppRegistry,
 } from 'react-native';
 
 import setup from './setup';
-AppRegistry.registerComponent('NavigationComponent', () => setup);
+AppRegistry.registerComponent('TouchableComponent', () => setup);
+
