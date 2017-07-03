@@ -16,14 +16,12 @@ export default class ImportantNews extends Component{
     }
     render(){
         var news = [];
-        for (var i in  this.props.news){
+        for (let i in  this.props.news){
             var text = (
                 // warning  ; Each child in an array or iterator should have an unique "key" prop
                 <Text
                     key={i}
                     onPress={ ()=>{
-                        console.log(this.props.news[i]);
-                        //  此处打印出来的 this.props.news[i] 为 数组 news 的最后一项
                         this.show(this.props.news[i]);
                     }}
                     numberOfLines={2}
