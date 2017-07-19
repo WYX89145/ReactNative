@@ -26,7 +26,6 @@ export default class TwitterFooter extends Component {
     }
 
     render(){
-
         let View1=(
             <View style={[styles.center,{backgroundColor: '#ffffee11'}]}>
                 <Text style={{fontSize: 30}}>1</Text>
