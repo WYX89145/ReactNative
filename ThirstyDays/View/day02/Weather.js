@@ -23,7 +23,7 @@ import Util from '../../utils/Util';
 /*
 * 矢量图标的使用，有些麻烦
 * 1,在你的工程下面执行命令行
-*   （1）npm install react-native-vector-icons –save
+*   （1）npm install react-native-vector-icons -–save
 *   （2）npm install rnpm -g
 *   （3）rnpm link
 * 2,Android : 把node_modules/react-native-vector-icons/Fonts目录下字体文件全部拷到 android/app/src/main/assets/Fonts目录

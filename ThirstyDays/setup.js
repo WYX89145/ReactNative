@@ -16,12 +16,17 @@ import Day05 from './View/day05/Day05';
 import Day06 from './View/day06/Day06';
 import Day08 from './View/day08/Day08';
 import Day09 from './View/day09/Day09';
+import Day10 from './View/day10/Day10';
+import Day11 from './View/day11/Day11';
+
+
+
 
 export default class setup extends Component {
 
     render() {
         return (
-            <Day09/>
+            <Day11/>
         );
     }
 }

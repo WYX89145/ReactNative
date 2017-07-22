@@ -12,7 +12,6 @@ import {
     TouchableHighlight,
     ScrollView,
     PanResponder,
-    LayoutAnimation
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -20,8 +19,6 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import Util from '../../utils/Util';
 
 export default class TwitterUser extends Component{
-
-    _scrollEnabled = false;
 
     _bannerTop = 0;
     _iconTop = 95;
